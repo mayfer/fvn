@@ -13,7 +13,8 @@ Federation Verification Node - a proposal for a verification standard for federa
 1. To avoid users from sending messages with spoofed timestamps, measures need to be taken
     * One option is to create a pseudo-blockchain for each federation i.e. Each service provider also signs each message and creates an append-only hash-chain
 2. Validating nodes would need to sync entire history from a particular node they are interested in. Checkpoints are possible but consensus can be difficult
-3. A global identity service is necessary for achieving single-sign-on across federated nodes. ENS is an ideal contender for this since usernames are already globally unique and provable using wallets. Without ENS or similar, identities will have to be wallet addresses, which are not human-readable. Non-human-readable addresses put the responsibility of assigning usernames to federated nodes which can lead to clashes very quickly. This can potentially be avoided if each username also has a DNS name attached much like e-mail.
+3. A global identity service is necessary for achieving single-sign-on across federated nodes.
+    * ENS is an ideal contender for this since usernames are already globally unique and provable using wallets. Without ENS or similar, identities will have to be wallet addresses, which are not human-readable. Non-human-readable addresses put the responsibility of assigning usernames to federated nodes which can lead to clashes very quickly. This can potentially be avoided if each username also has a DNS name attached much like e-mail.
 
 ## Next steps
 
